@@ -1,0 +1,64 @@
+Sub ex004()
+ 
+ Dim situacao(10), media(10), pr1(10), pr2(10) As Integer
+ Dim nomes(10), msg, mensagem(10) As String
+
+
+ Range("B4").Select
+
+
+  For i = 1 To 10
+     nomes(i) = InputBox("Digite o valor da posição: " & i)
+    
+     ActiveCell.Value = nomes(i)
+      ActiveCell.Offset(0, 1).Select
+ 
+  Next i
+ 
+  Range("B8").Select
+
+
+  For i = 1 To 10
+     pr1(i) = InputBox("Digite o valor da posição: " & i)
+    
+     ActiveCell.Value = pr1(i)
+      ActiveCell.Offset(0, 1).Select
+ 
+  Next i
+  
+  Range("B12").Select
+
+
+  For i = 1 To 10
+     pr2(i) = InputBox("Digite o valor da posição: " & i)
+    
+     ActiveCell.Value = pr2(i)
+      ActiveCell.Offset(0, 1).Select
+ 
+  Next i
+ 
+  Range("A16").Select
+
+  For i = 1 To 10
+     media(i) = (pr1(i) + pr2(i)) / 2
+ 
+ 
+  Range("A16").Offset(0, i).Value = media(i)
+  
+  
+  
+ 
+  Next i
+  
+  For i = 1 To 10
+   If (media(i) < 5.9) Then
+       Range("A20").Offset(0, i).Value = " RP "
+   Else
+       Range("A20").Offset(0, i).Value = " AP "
+   
+   End If
+     
+  Next i
+ 
+  
+ End Sub
