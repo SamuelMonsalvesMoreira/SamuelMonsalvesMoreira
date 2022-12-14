@@ -1,0 +1,57 @@
+Sub ex01()
+
+
+' Colocar o 0 para encerrar o pragrama
+
+
+Dim quantidade As Integer
+Dim total As Double
+Dim codigo As Integer
+Dim valor As Currency
+
+codigo = InputBox(" Insira o código do produto")
+
+ While codigo <> 0
+
+ 
+
+    Select Case codigo
+
+    Case 1
+    valor = Range("C2").Value
+
+    Case 2
+    valor = Range("C3").Value
+
+    Case 3
+    valor = Range("C4").Value
+
+    Case 4
+    valor = Range("C5").Value
+
+    Case 5
+    valor = Range("C6").Value
+
+    Case 6
+    valor = Range("C7").Value
+
+    Case 7
+    valor = Range("C8").Value
+
+    Case 8
+    valor = Range("C9").Value
+
+    Case 9
+    valor = Range("C10").Value
+
+    Case 10
+    valor = Range("C11").Value
+
+    End Select
+              quantidade = InputBox("Insira a quantidade do produto desejado")
+              codigo = InputBox(" Insira o código do produto")
+               total = total + (quantidade * valor)
+ Wend
+
+    MsgBox " O valor total da sua compra eh " & total
+End Sub
