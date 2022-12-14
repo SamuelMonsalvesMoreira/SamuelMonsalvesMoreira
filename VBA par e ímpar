@@ -1,0 +1,38 @@
+Sub ex002()
+
+Dim num(10), j As Integer
+Dim mensagem(10), msg As String
+
+
+ Range("A10").Select
+
+  j = 1
+  For i = 1 To 10
+     num(i) = InputBox("Digite o valor da posição: " & i)
+    
+     ActiveCell.Value = num(i)
+      ActiveCell.Offset(0, 1).Select
+ 
+      If (num(i) Mod 2 = 0) Then
+ 
+            mensagem(i) = " é par: "
+ 
+      Else
+ 
+            mensagem(i) = " é impar: "
+ 
+
+      End If
+
+      msg = msg & j & " Elemento: " & num(i) & mensagem(i) & Chr(13)
+
+      j = j + 1
+ 
+   Next i
+
+
+ MsgBox msg
+ 
+      
+
+End Sub
