@@ -1,0 +1,45 @@
+Sub Ex009()
+ 
+    Dim m, i As Integer, j As Integer, soma_total As Integer, soma_linha3 As Integer
+    Dim soma_coluna2 As Integer, dp As Integer, ds As Integer
+
+    For i = 1 To 3
+        For j = 1 To 3
+            m = Range("B4 : D6").Value
+        Next j
+    Next i
+
+
+    For i = 1 To 3
+        For j = 1 To 3
+            
+            soma_total = soma_total + m(i, j)
+
+            
+            If i Mod 2 <> 0 And i <> 1 Then
+                If i >= j Then
+                    soma_linha3 = soma_linha3 + m(i, j)
+                End If
+            End If
+
+            If j = 2 Then
+                soma_coluna2 = soma_coluna2 + m(i, j)
+            End If
+
+            If i = j Then
+                dp = dp + m(i, j)
+            End If
+
+            If i + j = 4 Then
+                ds = ds + m(i, j)
+            End If
+        Next j
+    Next i
+
+   MsgBox "Soma de todos os elementos eh: " & somatotal & Chr(13) & _
+   "Soma dos elemntos da linha 3 eh: " & somalinha3 & Chr(13) & _
+   "Soma dos elementos da coluna 2 eh: " & somacoluna2 & Chr(13) & _
+   "Soma dos elemntos da DP eh: " & dp & Chr(13) & _
+   "Soma dos elementos da DS eh: " & ds
+
+End Sub
