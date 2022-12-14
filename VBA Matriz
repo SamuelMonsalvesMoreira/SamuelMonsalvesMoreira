@@ -1,0 +1,26 @@
+Sub Ex_01_2maneira()
+    
+    Dim vetor(1 To 5) As Variant, uxiliar As Integer
+    Dim i As Integer, j As Integer
+
+    'Alimentando vetor com os valores das células F7:J7
+    For i = 1 To 5
+        vetor(i) = Cells(7, i + 5).Value
+    Next i
+
+    'Loop de repetição para checar o maior valor e ordenar o vetor de maneira crescente
+    For i = 1 To 5
+        For j = 1 To 5
+            If vetor(i) < vetor(j) Then
+                auxiliar = vetor(i)
+                vetor(i) = vetor(j)
+                vetor(j) = auxiliar
+            End If
+        Next j
+    Next i
+
+    'Escrever na planilha o vetor ordenado nas células F11:J11
+    For i = 1 To 5
+        Cells(11, i + 5).Value = vetor(i)
+    Next i
+End Sub
