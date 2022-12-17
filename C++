@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main(void) {
+  int vet[10], i, npares = 0;
+
+  // Leitura do vetor
+  for (i = 0; i < 10; ++i) {
+    cout << "Digite um valor da posição " << i+1 << ": ";
+    cin >> vet[i];
+  }
+
+  // Processamento
+  for (i = 0; i < 10; i++) {
+    if (vet[i] % 2 == 0) {
+      cout << vet[i] << " é par!" << endl;
+      npares++;
+    } 
+    else 
+      cout << vet[i] << "é ímpar!!" << endl;
+  }
+
+  // Apresentação dos resultados
+  cout << "Quantidade de pares: " << npares << endl;
+  cout << "Quantidade de ímpares: " << 10-npares << endl;
+  
+  return 0;
+}
