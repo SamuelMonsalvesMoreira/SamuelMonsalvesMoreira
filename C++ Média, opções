@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+int main() {
+  float nota1, nota2, nota3, media;
+  char opcao;
+  string nome_media;
+  cout << "Informe a 1a. nota: ";
+  cin >> nota1;
+  cout << "Informe a 2a. nota: ";
+  cin >> nota2;
+  cout << "Informe a 3a. nota: ";
+  cin >> nota3;
+  cout << "---- Menu da Média ----" << endl;
+  cout << "[A]ritmética\n[P]onderada\n[H]armônica" << endl;
+  cout << "Informe a opção desejada:  ";
+  cin >> opcao;
+  //cout << nota1 << endl << nota2 << endl << nota3 << endl << opcao << endl;
+  
+  if (opcao == 'A') {
+    media = (nota1 + nota2 + nota3) / 3;
+    nome_media = "aritmética";
+  }
+  else 
+    if (opcao == 'P') {
+      media = (nota1*3 + nota2*3 + nota3*4) / 10;
+      nome_media = "ponderada";
+    }
+    else
+      if (opcao == 'H') {
+        media = 3.0 / (1.0/nota1 + 1.0/nota2 + 1.0/nota3);
+        nome_media = "harmônica";
+      }
+  cout << "A média " << nome_media << " é " << media << endl;
+  return 0;
+}
