@@ -1,33 +1,79 @@
 # Samuel Monsalves Moreira
 
-**Junior Full Stack Developer — C# · ASP.NET Core · Angular · SQL Server**
+**Desenvolvedor Full Stack Júnior | Junior Full Stack Developer**  
+**C# · .NET · ASP.NET Core · Angular · SQL Server**
 
-Systems Analysis and Development graduate from Fatec. I build complete web applications with clear business rules, secure APIs, responsive interfaces, and reliable data persistence.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuel-monsalves-moreira/)
+[![HelpDesk](https://img.shields.io/badge/HelpDesk-Demonstração_online-16a34a?style=flat-square&logo=render&logoColor=white)](https://helpdesk-samuel.onrender.com/)
+[![StockFlow](https://img.shields.io/badge/StockFlow-Demonstração_online-0f766e?style=flat-square&logo=render&logoColor=white)](https://stockflow-samuel.onrender.com/)
 
-Open to Junior .NET and Full Stack opportunities in Brazil or remote.
+## Português
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuel-monsalves-moreira/)
-[![HelpDesk Live](https://img.shields.io/badge/HelpDesk-Live_Demo-16a34a?style=flat-square&logo=render&logoColor=white)](https://helpdesk-samuel.onrender.com/)
+Sou formado em Análise e Desenvolvimento de Sistemas pela Fatec. Desenvolvo aplicações web completas, com regras de negócio claras, APIs seguras, interfaces responsivas, persistência de dados e testes automatizados.
 
-## Selected work
+Busco oportunidades como Desenvolvedor .NET Júnior ou Full Stack no Brasil, em modelo presencial, híbrido ou remoto.
 
-### [StockFlow](https://github.com/SamuelMonsalvesMoreira/StockFlow) — Inventory Management Platform
+### Projetos em destaque
 
-Full stack inventory management with products, categories, suppliers, stock movements, replenishment, audit history, reports, CSV export, and role-based access.
+#### [StockFlow](https://github.com/SamuelMonsalvesMoreira/StockFlow) — Gestão de estoque
 
-**Highlights:** Angular, ASP.NET Core Web API, Entity Framework Core, SQL Server, Docker Compose, 14 automated tests, and GitHub Actions.
+Sistema full stack para produtos, categorias, fornecedores, movimentações, reposição, auditoria, relatórios, exportação CSV e controle de acesso por perfil.
 
-[View repository](https://github.com/SamuelMonsalvesMoreira/StockFlow) · [View CI](https://github.com/SamuelMonsalvesMoreira/StockFlow/actions/workflows/ci.yml)
+**Destaques:** Angular, ASP.NET Core Web API, Entity Framework Core, SQL Server, Docker Compose, 15 testes automatizados e GitHub Actions.
 
-### [HelpDesk](https://github.com/SamuelMonsalvesMoreira/HelpDesk) — Support Ticket Management
+[Demonstração online](https://stockflow-samuel.onrender.com/) · [Repositório](https://github.com/SamuelMonsalvesMoreira/StockFlow) · [Integração contínua](https://github.com/SamuelMonsalvesMoreira/StockFlow/actions/workflows/ci.yml)
 
-A deployed ticket management system with authentication, requester/technician/administrator roles, assignment, comments, filters, dashboards, and a complete audit trail.
+#### [HelpDesk](https://github.com/SamuelMonsalvesMoreira/HelpDesk) — Gestão de chamados
 
-**Highlights:** C#, ASP.NET Core, JWT, Entity Framework Core, SQL Server support, xUnit, Docker, GitHub Actions, and a live Render deployment.
+Sistema publicado para gerenciamento de chamados com autenticação, perfis de solicitante, técnico e administrador, atribuição, comentários, filtros, indicadores e histórico de auditoria.
+
+**Destaques:** C#, ASP.NET Core, JWT, Entity Framework Core, SQL Server, xUnit, Docker, GitHub Actions e publicação no Render.
+
+[Demonstração online](https://helpdesk-samuel.onrender.com/) · [Repositório](https://github.com/SamuelMonsalvesMoreira/HelpDesk) · [Integração contínua](https://github.com/SamuelMonsalvesMoreira/HelpDesk/actions/workflows/ci.yml)
+
+### Como trabalho
+
+- APIs REST com autenticação e autorização aplicadas no back-end
+- Repository Pattern, injeção de dependência, DTOs e migrations
+- Testes automatizados e integração contínua
+- Branches, pull requests e commits descritivos
+- Documentação de arquitetura, decisões técnicas e regras de negócio
+
+---
+
+## English
+
+I hold a degree in Systems Analysis and Development from Fatec. I build complete web applications with clear business rules, secure APIs, responsive interfaces, reliable data persistence, and automated tests.
+
+I am open to Junior .NET and Full Stack opportunities in Brazil and remote or international teams.
+
+### Selected projects
+
+#### [StockFlow](https://github.com/SamuelMonsalvesMoreira/StockFlow) — Inventory management
+
+A full-stack platform for products, categories, suppliers, stock movements, replenishment, audit history, reports, CSV export, and role-based access.
+
+**Highlights:** Angular, ASP.NET Core Web API, Entity Framework Core, SQL Server, Docker Compose, 15 automated tests, and GitHub Actions.
+
+[Open live demo](https://stockflow-samuel.onrender.com/) · [View repository](https://github.com/SamuelMonsalvesMoreira/StockFlow) · [View CI](https://github.com/SamuelMonsalvesMoreira/StockFlow/actions/workflows/ci.yml)
+
+#### [HelpDesk](https://github.com/SamuelMonsalvesMoreira/HelpDesk) — Support ticket management
+
+A deployed ticket management system with authentication, requester, technician and administrator roles, assignment, comments, filters, dashboards, and a complete audit trail.
+
+**Highlights:** C#, ASP.NET Core, JWT, Entity Framework Core, SQL Server, xUnit, Docker, GitHub Actions, and a live Render deployment.
 
 [Open live demo](https://helpdesk-samuel.onrender.com/) · [View repository](https://github.com/SamuelMonsalvesMoreira/HelpDesk) · [View CI](https://github.com/SamuelMonsalvesMoreira/HelpDesk/actions/workflows/ci.yml)
 
-## Core stack
+### How I work
+
+- REST APIs with authentication and authorization enforced by the back end
+- Repository Pattern, dependency injection, DTOs, and database migrations
+- Automated tests and continuous integration
+- Feature branches, pull requests, and descriptive commits
+- Documentation focused on architecture, technical decisions, and business rules
+
+## Tecnologias principais | Core stack
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
@@ -39,10 +85,3 @@ A deployed ticket management system with authentication, requester/technician/ad
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-## How I work
-
-- REST APIs with authentication and authorization enforced by the back end
-- Repository Pattern, dependency injection, DTOs, and database migrations
-- Automated tests and continuous integration
-- Feature branches and pull requests with meaningful commits
-- Documentation focused on architecture, trade-offs, and business decisions
