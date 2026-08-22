@@ -1,45 +1,13 @@
 # Samuel Monsalves Moreira
 
-**Desenvolvedor Full Stack Júnior | Junior Full Stack Developer**  
+**Junior Full Stack Developer | Desenvolvedor Full Stack Júnior**  
 **C# · .NET · ASP.NET Core · Angular · SQL Server**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuel-monsalves-moreira/)
-[![HelpDesk](https://img.shields.io/badge/HelpDesk-Demonstração_online-16a34a?style=flat-square&logo=render&logoColor=white)](https://helpdesk-samuel.onrender.com/)
-[![StockFlow](https://img.shields.io/badge/StockFlow-Demonstração_online-0f766e?style=flat-square&logo=render&logoColor=white)](https://stockflow-samuel.onrender.com/)
+[English](#english) · [Português](#português)
 
-## Português
-
-Sou formado em Análise e Desenvolvimento de Sistemas pela Fatec. Desenvolvo aplicações web completas, com regras de negócio claras, APIs seguras, interfaces responsivas, persistência de dados e testes automatizados.
-
-Busco oportunidades como Desenvolvedor .NET Júnior ou Full Stack no Brasil, em modelo presencial, híbrido ou remoto.
-
-### Projetos em destaque
-
-#### [StockFlow](https://github.com/SamuelMonsalvesMoreira/StockFlow) — Gestão de estoque
-
-Sistema full stack para produtos, categorias, fornecedores, movimentações, reposição, auditoria, relatórios, exportação CSV e controle de acesso por perfil.
-
-**Destaques:** Angular, ASP.NET Core Web API, Entity Framework Core, SQL Server, Docker Compose, 15 testes automatizados e GitHub Actions.
-
-[Demonstração online](https://stockflow-samuel.onrender.com/) · [Repositório](https://github.com/SamuelMonsalvesMoreira/StockFlow) · [Integração contínua](https://github.com/SamuelMonsalvesMoreira/StockFlow/actions/workflows/ci.yml)
-
-#### [HelpDesk](https://github.com/SamuelMonsalvesMoreira/HelpDesk) — Gestão de chamados
-
-Sistema publicado para gerenciamento de chamados com autenticação, perfis de solicitante, técnico e administrador, atribuição, comentários, filtros, indicadores e histórico de auditoria.
-
-**Destaques:** C#, ASP.NET Core, JWT, Entity Framework Core, SQL Server, xUnit, Docker, GitHub Actions e publicação no Render.
-
-[Demonstração online](https://helpdesk-samuel.onrender.com/) · [Repositório](https://github.com/SamuelMonsalvesMoreira/HelpDesk) · [Integração contínua](https://github.com/SamuelMonsalvesMoreira/HelpDesk/actions/workflows/ci.yml)
-
-### Como trabalho
-
-- APIs REST com autenticação e autorização aplicadas no back-end
-- Repository Pattern, injeção de dependência, DTOs e migrations
-- Testes automatizados e integração contínua
-- Branches, pull requests e commits descritivos
-- Documentação de arquitetura, decisões técnicas e regras de negócio
-
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuel-monsalves-moreira/)
+[![HelpDesk](https://img.shields.io/badge/HelpDesk-Live_demo-16a34a?style=flat-square&logo=render&logoColor=white)](https://helpdesk-samuel.onrender.com/)
+[![StockFlow](https://img.shields.io/badge/StockFlow-Live_demo-0f766e?style=flat-square&logo=render&logoColor=white)](https://stockflow-samuel.onrender.com/)
 
 ## English
 
@@ -73,7 +41,41 @@ A deployed ticket management system with authentication, requester, technician a
 - Feature branches, pull requests, and descriptive commits
 - Documentation focused on architecture, technical decisions, and business rules
 
-## Tecnologias principais | Core stack
+---
+
+## Português
+
+Sou formado em Análise e Desenvolvimento de Sistemas pela Fatec. Desenvolvo aplicações web completas, com regras de negócio claras, APIs seguras, interfaces responsivas, persistência de dados e testes automatizados.
+
+Busco oportunidades como Desenvolvedor .NET Júnior ou Full Stack no Brasil, em modelo presencial, híbrido ou remoto.
+
+### Projetos em destaque
+
+#### [StockFlow](https://github.com/SamuelMonsalvesMoreira/StockFlow) — Gestão de estoque
+
+Sistema full stack para produtos, categorias, fornecedores, movimentações, reposição, auditoria, relatórios, exportação CSV e controle de acesso por perfil.
+
+**Destaques:** Angular, ASP.NET Core Web API, Entity Framework Core, SQL Server, Docker Compose, 15 testes automatizados e GitHub Actions.
+
+[Demonstração online](https://stockflow-samuel.onrender.com/) · [Repositório](https://github.com/SamuelMonsalvesMoreira/StockFlow) · [Integração contínua](https://github.com/SamuelMonsalvesMoreira/StockFlow/actions/workflows/ci.yml)
+
+#### [HelpDesk](https://github.com/SamuelMonsalvesMoreira/HelpDesk) — Gestão de chamados
+
+Sistema publicado para gerenciamento de chamados com autenticação, perfis de solicitante, técnico e administrador, atribuição, comentários, filtros, indicadores e histórico de auditoria.
+
+**Destaques:** C#, ASP.NET Core, JWT, Entity Framework Core, SQL Server, xUnit, Docker, GitHub Actions e publicação no Render.
+
+[Demonstração online](https://helpdesk-samuel.onrender.com/) · [Repositório](https://github.com/SamuelMonsalvesMoreira/HelpDesk) · [Integração contínua](https://github.com/SamuelMonsalvesMoreira/HelpDesk/actions/workflows/ci.yml)
+
+### Como trabalho
+
+- APIs REST com autenticação e autorização aplicadas no back-end
+- Repository Pattern, injeção de dependência, DTOs e migrations
+- Testes automatizados e integração contínua
+- Branches, pull requests e commits descritivos
+- Documentação de arquitetura, decisões técnicas e regras de negócio
+
+## Core stack | Tecnologias principais
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
