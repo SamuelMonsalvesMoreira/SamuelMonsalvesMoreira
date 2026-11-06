@@ -33,6 +33,14 @@ A deployed ticket management system with authentication, requester, technician a
 
 [Open live demo](https://helpdesk-samuel.onrender.com/) · [View repository](https://github.com/SamuelMonsalvesMoreira/HelpDesk) · [View CI](https://github.com/SamuelMonsalvesMoreira/HelpDesk/actions/workflows/ci.yml)
 
+#### [Bee Good Food](https://github.com/SamuelMonsalvesMoreira/Bee_Good_Food_Recode) — Surplus food for pickup
+
+Final project of the Recode Fullstack program, evolved from my capstone. Small food businesses publish the day's surplus at a discount; customers reserve online and pick up in store. Includes store moderation, concurrency-safe orders with idempotency keys, and sales indicators, aligned with UN SDG 8.
+
+**Highlights:** Java 21, Spring Boot 4, React 19, TypeScript, MySQL, 159 API tests against a real database, 11 Playwright browser tests, and an axe accessibility audit (WCAG 2.1 AA) with no violations.
+
+[View repository](https://github.com/SamuelMonsalvesMoreira/Bee_Good_Food_Recode) · [Screenshots](https://github.com/SamuelMonsalvesMoreira/Bee_Good_Food_Recode#veja-em-ação)
+
 ### How I work
 
 - REST APIs with authentication and authorization enforced by the back end
@@ -67,6 +75,14 @@ Sistema publicado para gerenciamento de chamados com autenticação, perfis de s
 
 [Demonstração online](https://helpdesk-samuel.onrender.com/) · [Repositório](https://github.com/SamuelMonsalvesMoreira/HelpDesk) · [Integração contínua](https://github.com/SamuelMonsalvesMoreira/HelpDesk/actions/workflows/ci.yml)
 
+#### [Bee Good Food](https://github.com/SamuelMonsalvesMoreira/Bee_Good_Food_Recode) — Excedentes para retirada
+
+Projeto final do programa Recode Fullstack, evoluído a partir do meu TCC. Pequenos negócios de comida publicam o excedente do dia com desconto; o cliente reserva pelo site e retira no balcão. Inclui moderação de lojas, pedidos seguros sob concorrência com chave de idempotência e indicadores de vendas, alinhado ao ODS 8.
+
+**Destaques:** Java 21, Spring Boot 4, React 19, TypeScript, MySQL, 159 testes da API contra banco real, 11 testes no navegador com Playwright e auditoria de acessibilidade (WCAG 2.1 AA) sem violações.
+
+[Repositório](https://github.com/SamuelMonsalvesMoreira/Bee_Good_Food_Recode) · [Telas](https://github.com/SamuelMonsalvesMoreira/Bee_Good_Food_Recode#veja-em-ação)
+
 ### Como trabalho
 
 - APIs REST com autenticação e autorização aplicadas no back-end
@@ -86,4 +102,11 @@ Sistema publicado para gerenciamento de chamados com autenticação, perfis de s
 ![Entity Framework Core](https://img.shields.io/badge/Entity_Framework_Core-6C3483?style=flat-square&logo=dotnet&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**Also | Também:**
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
